@@ -1,0 +1,140 @@
+@media all and (max-width:1200px){
+	
+
+}
+
+
+
+@media all and (max-width:991px){
+	.menu-area{
+		transform: translateX(-100%);
+		border-right: .1rem solid var(--textColor);
+	}
+	.menu-icon{
+		display: block;
+	}
+	.my-container{
+		float: none;
+		margin: 2rem auto;
+		max-width: calc(100% - 4rem);
+	}
+	.child-container{
+		float: inherit;
+		margin: auto;
+		max-width: calc(100% - 4rem);
+	}
+	.experiance-area h2{
+		font-size: 6rem;
+	}
+	.services{
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.single-service{
+		margin-bottom: 3rem;
+	}
+	.number a, .email a{
+		font-size: 1.5rem;
+	}
+}
+
+
+
+@media all and (max-width:767px){
+	.banner-area h2{
+		font-size: 5rem;
+	}
+	.banner-area .selector7 h2{
+		font-size: 2.5rem;
+	}
+	.about-content{
+		flex-direction: column;
+	}
+	.about-text{
+		margin-bottom: 3rem;
+	}
+	.about-text p{
+		font-size: 1.6rem;
+	}
+	.about-contact{
+		margin-left: 0;
+	}
+	.experiance-area{
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.single-experiance:nth-child(1){
+		margin-bottom: 5rem;
+	}
+	.single-experiance:nth-child(2){
+		margin-bottom: 5rem;
+		border-right: none !important;
+	}
+	.education-experience{
+		flex-direction: column;
+	}
+	.education-area{
+		margin-bottom: 3rem;
+	}
+	.portfolios{
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.blog-carousel-area ul{
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.contact-area-content{
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.link-area{
+		margin-bottom: 5rem;
+	}
+	.input-area{
+		padding-bottom: 10rem;
+	}
+}
+
+
+
+
+@media all and (max-width:575px){
+	.btn1{
+		font-size: 2rem;
+	}
+	.experiance-area h2{
+		font-size: 5rem;
+	}
+	.education-area h3{
+		font-size: 2.5rem;
+	}
+	.progress-area{
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.services{
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.portfolios{
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.blog-carousel-area .swiper-slide{
+		margin-bottom: 8rem;
+	}
+}
+
+
+
+
+@media all and (max-width:485px){
+	.about-text{
+		text-align: center;
+	}
+	.company h4{
+		font-size: 2rem;
+	}
+	.company h5{
+		font-size: 1.6rem;
+	}
+	.number-email{
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.email{
+		margin-bottom: 2rem;
+	}
+}
